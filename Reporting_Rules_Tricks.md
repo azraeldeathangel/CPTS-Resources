@@ -18,3 +18,5 @@
 - **Keep Formatting Consistent** – Standardize capitalization and punctuation.  
 - **Ensure Clear Writing** – Keep sentences structured and easy to understand.  
 
+### **Tips & Tricks**
+- **[nmap2md.py](https://github.com/vdjagilev/nmap2md)** - For Nmap outputs, you can use nmap2md.py, a Python tool that converts Nmap XML output to Markdown, so you won’t have to manually format it.  
