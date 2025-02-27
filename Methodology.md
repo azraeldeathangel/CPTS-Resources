@@ -1,7 +1,3 @@
-Here's a cleaned-up version with redundant parts removed while keeping everything structured and clear.
-
----
-
 ## Initial Foothold
 
 ### Footprinting
