@@ -35,8 +35,7 @@ non highlight-manual="^"
 #### **Example Usage**  
 The following example applies the correct classes:  
 ```non highlight-manual="^"
-┌──(kali㉿kali)-[~]
-└─$ ^<em><span class="command">^sqlmap -r req.txt^</span></em>^
+$ ^<em><span class="command">^sqlmap -r req.txt^</span></em>^
 
 Database: status
 Table: users
