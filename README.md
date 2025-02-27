@@ -1,4 +1,4 @@
-# Purpose
+## Purpose
 This repository is designed to help CPTS candidates and penetration testers stay organized and efficient. Whether preparing for the exam or working on real-world assessments, these resources provide practical guidance and structure.
 
 ## Contents
