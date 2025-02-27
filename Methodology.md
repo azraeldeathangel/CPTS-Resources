@@ -62,8 +62,8 @@
 - **Internal Password Spraying**
 	- Once we have internal access on the AD environment we can also try `Invoke-DomainPasswordSpray` to spray for passwords.
 
-- **Share Hunting**
-	- We can also run `Snaffler` to enumerate for juicy shares that might contain sensitive credentials and lead us to lateral movement.
+- **Credentials Hunting**
+	- Always run `tree` whenever you fully compromised a machine to easily hunt for credentials.
 
 - **Targeted Kerberoasting**
 	- Use `GetUserSPNs.py` or `targetedkerberoast.py` on Linux or create an SPN to attempt kerberoasting if you have sufficient privileges.
