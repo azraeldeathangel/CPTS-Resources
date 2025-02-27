@@ -33,7 +33,7 @@
 - **Impacket secretsdump & GetUserSPNs.py**
 	- Try running `secretsdump.py` blindly to see if the user can perform DCSync or you can also try running `GetUserSPNs.py` to see if there's any kerberoastable users
 - **Netexec**  
-    - ==**Re-enumerate shares**==, look for credentials on shared directories or `SYSVOL` for gpp and logon scripts.  
+    - **Re-enumerate shares**, look for credentials on shared directories or `SYSVOL` for gpp and logon scripts.  
     - Re-enumerate valid users and groups.
     -  Use LNK file attack on writable shares with `Netexec -M slinky` and `LNKBomb`
 - **PowerView**  
@@ -43,7 +43,7 @@
     - Can we add ourselves to a group?
     - Can we do DCSync?
 - **Shell Access**  
-    **==Re-check shell access==** on **SMB, WinrRM,  RDP**  using `evil-winrm` `netexec` `smbexec` `wmiexec` `psexec` or maybe just running as another user via `runas` command.
+    **Re-check shell access** on **SMB, WinrRM,  RDP**  using `evil-winrm` `netexec` `smbexec` `wmiexec` `psexec` or maybe just running as another user via `runas` command.
 
 #### Misconfigurations
 - **Weak Passwords or Misconfigurations**  
